@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.Python
+env/
+venv/
+.venv/
+pip-selfcheck.json
+
+# Django
+*.sqlite3
+db.sqlite3
+/backend/media/
+/backend/static/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite
+/frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Task management files
+*task*.md
+generate-tasks*.md
+process-task-list.md
+create-prd.md
+tasks/
+
+# Challenge PDF
+*.pdf
