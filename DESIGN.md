@@ -503,17 +503,11 @@ Things we explicitly chose _not_ to add (but would note in the README as future 
 
 ## 10. Implementation Order
 
-1. Backend: Django project + app scaffolding
-2. Backend: Model + migrations
-3. Backend: Serializers
-4. Backend: Views (single create, list, bulk upsert)
-5. Backend: URL routing + CORS setup
-6. Backend: Manual testing with curl / httpie
-7. Frontend: Vite + React + Tailwind scaffolding
-8. Frontend: API client module
-9. Frontend: React Query setup
-10. Frontend: Professionals list page + source filter
-11. Frontend: Add professional form page
-12. Frontend: Navigation bar + routing
-13. Integration testing (frontend ↔ backend)
-14. README with setup instructions, assumptions, time spent
+1. Backend setup — Django project, app, model, serializers, filter, CORS, migrations
+2. Backend API — List & single create endpoint with curl verification
+3. Backend API — Bulk upsert endpoint with curl verification
+4. Frontend setup — Vite, React, Tailwind, routing, API client, React Query
+5. Frontend — Professionals list page with source filter
+6. Frontend — Add professional form page with validation
+7. Backend tests — 30 test cases covering all edge cases from Section 5
+8. README & documentation
